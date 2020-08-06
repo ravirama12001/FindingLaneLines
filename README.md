@@ -14,6 +14,8 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
+![image] (./examples/grayscale.jpg)
+
 ### Reflection
 
 ### Pipeline Description
