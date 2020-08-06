@@ -27,17 +27,21 @@ Original Image:
 <img src="./test_images_output/step0.jpg">
     
     1. Convert the original image to grayscale
-                              Greyscaled Image:
+    
+Greyscaled Image:
 <img src="./test_images_output/step1.jpg">
     2. Apply Gaussian blur to the grayscaled image, and get a blurred image
-                              Gaussian blurred Image:
+
+Gaussian blurred Image:
 <img src="./test_images_output/step2.jpg">
     3. Apply Canny edge detector to the blurred image, and  get a black image with white adgesApply
-                              Canne edge detected image:
+
+Canne edge detected image:
 <img src="./test_images_output/step3.jpg">
 
     4. ROI (region of interest) mask to the edges image to remove all edges outside ROI
-                              Region of interest on the image:
+    
+Region of interest on the image:
 <img src="./test_images_output/step4.jpg">
 
     5. Apply Hough transform to the masked edges image, get a list of line points as output
@@ -54,7 +58,7 @@ Original Image:
 
     7. Draw average lane lines on the original image, such that they are only show inside ROI
 
-    ![FinalImage] ./test_images_output/step6-7.jpg
+<img src="./test_images_output/step6-7.jpg">
 
     8. Save the image
 
