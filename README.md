@@ -22,8 +22,7 @@ The pipeline has the following steps:
 
     1. Convert the original image to grayscale
     .[//]: # (Image References)
-
-[step0]: ./test_images_output/step0.jpg "Original Image"
+    .[step0]: ./test_images_output/step0.jpg "Original Image"
 
     2. Apply Gaussian blur to the grayscaled image, and get a blurred image
 
