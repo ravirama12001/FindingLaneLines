@@ -12,7 +12,6 @@ The goals / steps of this project are the following:
 
 <img src="./examples/grayscale.jpg">
 
-<img src="https://github.com/ravirama12001/FindingLaneLines/blob/master/examples/grayscale.jpg/examples/grayscale.jpg">
 
 ### Reflection
 
