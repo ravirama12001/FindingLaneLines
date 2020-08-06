@@ -30,10 +30,12 @@ Original Image:
     
 Greyscaled Image:
 <img src="./test_images_output/step1.jpg">
+
     2. Apply Gaussian blur to the grayscaled image, and get a blurred image
 
 Gaussian blurred Image:
 <img src="./test_images_output/step2.jpg">
+
     3. Apply Canny edge detector to the blurred image, and  get a black image with white adgesApply
 
 Canny edge detected image:
