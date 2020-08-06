@@ -21,7 +21,7 @@ This is a simple pipeline to find road lanes.
 The pipeline has the following steps:
 
     1. Convert the original image to grayscale
-    [//]: # (Image References)
+    .[//]: # (Image References)
 
 [step0]: ./test_images_output/step0.jpg "Original Image"
 
