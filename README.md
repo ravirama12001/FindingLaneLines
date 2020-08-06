@@ -23,7 +23,9 @@ This is a simple pipeline to find road lanes.
 
 The pipeline has the following steps:
 
-    <img src="./test_images_output/step0.jpg">
+    
+<img src="./test_images_output/step0.jpg">
+    
     1. Convert the original image to grayscale
 
     2. Apply Gaussian blur to the grayscaled image, and get a blurred image
