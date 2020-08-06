@@ -23,14 +23,15 @@ This is a simple pipeline to find road lanes.
 
 The pipeline has the following steps:
 
-    
+Original Image
 <img src="./test_images_output/step0.jpg">
     
     1. Convert the original image to grayscale
-
+Greyscaled Image
+<img src="./test_images_output/step2.jpg">
     2. Apply Gaussian blur to the grayscaled image, and get a blurred image
 
-    ![blurred] ./test_images_output/step2.jpg
+
 
     3. Apply Canny edge detector to the blurred image, and  get a black image with white adgesApply
 
