@@ -23,23 +23,22 @@ This is a simple pipeline to find road lanes.
 
 The pipeline has the following steps:
 
-Original Image
+Original Image:
 <img src="./test_images_output/step0.jpg">
     
     1. Convert the original image to grayscale
-Greyscaled Image
-<img src="./test_images_output/step2.jpg">
+                              Greyscaled Image:
+<img src="./test_images_output/step1.jpg">
     2. Apply Gaussian blur to the grayscaled image, and get a blurred image
-
-
-
+                              Gaussian blurred Image:
+<img src="./test_images_output/step2.jpg">
     3. Apply Canny edge detector to the blurred image, and  get a black image with white adgesApply
-
-    ![Canny edges] ./test_images_output/step3.jpg
+                              Canne edge detected image:
+<img src="./test_images_output/step3.jpg">
 
     4. ROI (region of interest) mask to the edges image to remove all edges outside ROI
-
-    ![Region of interest] ./test_images_output/step4.jpg
+                              Region of interest on the image:
+<img src="./test_images_output/step4.jpg">
 
     5. Apply Hough transform to the masked edges image, get a list of line points as output
 
