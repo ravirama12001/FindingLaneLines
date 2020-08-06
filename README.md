@@ -10,20 +10,17 @@ The goals / steps of this project are the following:
 
 * Reflect on your work in a written report
 
-[//]: # (Image References)
-
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
-##Reflection
+### Reflection
 
-###Pipeline Description
+### Pipeline Description
 
 This is a simple pipeline to find road lanes. 
 
 The pipeline has the following steps:
 
     1. Convert the original image to grayscale
-
     ![Greyscale Image] ./test_images_output/step1.jpg
 
     2. Apply Gaussian blur to the grayscaled image, and get a blurred image
@@ -56,6 +53,7 @@ The pipeline has the following steps:
 
     8. Save the image
 
+
 I have modified the draw_lines() function to get single line on left and right lanes:
 
     1. Separating Hough lines in two groups by slope (nagative and positive)
@@ -74,7 +72,7 @@ The most challenging parts were:
 
     * how to draw a single line for the left and the right lane lines
 
-###Potential Shortcomings of Current Pipeline
+### Potential Shortcomings of Current Pipeline
 
 1. This solution does not work for rain and dust
 
@@ -88,7 +86,7 @@ The most challenging parts were:
 
 6. Thos solution does not work well when other vehicles, cars, bikes, people are covering the lanes.
 
-###Possible Improvements of Pipeline
+### Possible Improvements of Pipeline
 
 Need to choose best parameters automatically.
 
