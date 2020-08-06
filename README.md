@@ -10,6 +10,8 @@ The goals / steps of this project are the following:
 
 * Reflect on your work in a written report
 
+####Below is Greyscale Image
+
 <img src="./examples/grayscale.jpg">
 
 
@@ -21,9 +23,8 @@ This is a simple pipeline to find road lanes.
 
 The pipeline has the following steps:
 
+    <img src="./test_images_output/step0.jpg">
     1. Convert the original image to grayscale
-    .[//]: # (Image References)
-    .[step0]: ./test_images_output/step0.jpg "Original Image"
 
     2. Apply Gaussian blur to the grayscaled image, and get a blurred image
 
