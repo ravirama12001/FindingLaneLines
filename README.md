@@ -10,6 +10,8 @@ The goals / steps of this project are the following:
 
 * Reflect on your work in a written report
 
+<img src="./examples/grayscale.jpg">
+
 <img src="https://github.com/ravirama12001/FindingLaneLines/blob/master/examples/grayscale.jpg/examples/grayscale.jpg">
 
 ### Reflection
