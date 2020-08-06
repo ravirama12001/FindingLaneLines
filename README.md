@@ -15,7 +15,12 @@ The goals / steps of this project are the following:
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
 ![image] (./examples/grayscale.jpg?raw=true)
-<img src="./examples/grayscale.jpg", width=800>
+
+<img src="/examples/grayscale.jpg">
+
+<img src="./examples/grayscale.jpg">
+
+<img src="https://github.com/ravirama12001/FindingLaneLines/blob/master/examples/grayscale.jpg/examples/grayscale.jpg">
 
 ### Reflection
 
