@@ -36,7 +36,7 @@ Gaussian blurred Image:
 <img src="./test_images_output/step2.jpg">
     3. Apply Canny edge detector to the blurred image, and  get a black image with white adgesApply
 
-Canne edge detected image:
+Canny edge detected image:
 <img src="./test_images_output/step3.jpg">
 
     4. ROI (region of interest) mask to the edges image to remove all edges outside ROI
@@ -58,6 +58,7 @@ Region of interest on the image:
 
     7. Draw average lane lines on the original image, such that they are only show inside ROI
 
+Final Image
 <img src="./test_images_output/step6-7.jpg">
 
     8. Save the image
